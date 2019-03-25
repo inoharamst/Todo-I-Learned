@@ -10,6 +10,7 @@
   - routes内で、アクセスされたurl・getかpostかで取得、処理するサーバーサイドjavascriptを処理する。  
   　必要であれば、module.exports = 処理メソッド名;で、他jsファイルで require(import)できるようにする。  
   - views/XXX.ejsはhtmlファイルとほぼ同義で、<%= routesのres.rendorで設定した値 %>で値設定できる。  
+
 また勉強し直す必要あり。
 
 
