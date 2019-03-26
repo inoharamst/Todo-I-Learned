@@ -55,27 +55,27 @@ https://jp.vuejs.org/v2/guide/computed.html
   slackやpythonで簡単なこと、連携したいときに便利
   
 - Google Search API  
-  検索DBで検索が非常に早く便利。無料枠あり。
+  検索DBで検索が非常に早く便利。無料枠あり。  
   https://www.apps-gcp.com/seach-api-part1/
   
 - Lighthouse・PageSpeed Insights  
   パフォーマンスが測定できる
   
 - AMP  
-  GoogleとTwitterの共同プロジェクトで、モバイルで一瞬でページ読み込みさせるために決めたタグなどがある。
-  構成が難しく、また一つでもエラーになると動かないため、難しい。
+  GoogleとTwitterの共同プロジェクトで、モバイルで一瞬でページ読み込みさせるために決めたタグなどがある。  
+  構成が難しく、また一つでもエラーになると動かないため、難しい。  
   設定すると検索上位に来やすいらしい。
 
 ### Firebase
-- セキュリティについて
-  一括でrulesでreadとwriteをfalseに設定し、下の定義でロールごとにＯＫにして良いルールを付与していく。
+- セキュリティについて  
+  一括でrulesでreadとwriteをfalseに設定し、下の定義でロールごとにＯＫにして良いルールを付与していく。  
   Cloud Storeとrealtime databaseでrulesの書き方が違ったはずなので要確認。
 
 ### AWS
-やっておくべき設定、初期設定とセキュリティ周りの勉強。
+やっておくべき設定、初期設定とセキュリティ周りの勉強。  
 AWS WAFによるDDoS攻撃対策の設定の勉強。
 
 ### Algolia・Elasticsearch + Kibana
-- 全文検索・ドキュメント検索エンジン
+- 全文検索・ドキュメント検索エンジン  
   サイト内検索の実装などに。
 
