@@ -45,16 +45,16 @@ https://jp.vuejs.org/v2/guide/computed.html
   PWAやService Workerの実装をフレームワークでやってくれたり？便利らしい。
 
 ### GAP/GAE
-- Google Analyst、Google Tag Manager
+- Google Analyst、Google Tag Manager  
   アクセス解析、挙動解析に必要なもの
-- Google Apps Scripts
+- Google Apps Scripts  
   slackやpythonで簡単なこと、連携したいときに便利
-- Google Search API
+- Google Search API  
   検索DBで検索が非常に早く便利。無料枠あり。
   https://www.apps-gcp.com/seach-api-part1/
-- Lighthouse・PageSpeed Insights
+- Lighthouse・PageSpeed Insights  
   パフォーマンスが測定できる
-- AMP
+- AMP  
   GoogleとTwitterの共同プロジェクトで、モバイルで一瞬でページ読み込みさせるために決めたタグなどがある。
   構成が難しく、また一つでもエラーになると動かないため、難しい。
   設定すると検索上位に来やすいらしい。
