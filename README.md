@@ -10,15 +10,19 @@
   - routes内で、アクセスされたurl・getかpostかで取得、処理するサーバーサイドjavascriptを処理する。  
   　必要であれば、module.exports = 処理メソッド名;で、他jsファイルで require(import)できるようにする。  
   - views/XXX.ejsはhtmlファイルとほぼ同義で、<%= routesのres.rendorで設定した値 %>で値設定できる。  
+  
 - Babel  
   ES6移行で実装したとき、旧のjavascritに変換してくれる  
+  
 - ESLINTとprettier  
   checkstyle的な、構文チェッカーと、修正ツール。  
   設定次第で修正できるし、構文エラーのものをpull出来ないようにもできるらしい(git hookと組み合わせか。)
   eslint:recommendedが便利。  
   for ofでエラーが出るのでfor ofのエラーチェックだけ許可したら楽。(Arrary.eachやObject.なんとかでやる方法はあるが。)
+  
 - webpack
   色々なモジュールが最初から入っていて便利なもの
+  
 - express
   一般的なフレームワークでWeb公開が簡単に設定できるが、無い場合の手間(実装)は理解してない。
 
@@ -33,8 +37,7 @@ https://jp.vuejs.org/v2/guide/computed.html
 - store(state)→値が入っている。管理されてる
 - computedを使うことでstore(state)の値を参照できる。
   →mapStateヘルパーを使うと、複数のstate値を参照できる。
-- stateの値を変更・更新したい場合、mutations:ミューテーション(関数的なもの)を定義し、
-   store.commit('関数名')で呼び出して変更する。
+- stateの値を変更・更新したい場合、mutations:ミューテーション(関数的なもの)を定義し、store.commit('関数名')で呼び出して変更する。
 - アクションはミューテーションとは異なり、値を変更しない。アクションからstateにアクセス→store.commitでミューテーションを呼び出せる。
 - アクションはディスパッチ:dispatchから呼び出せる。  
   
@@ -47,14 +50,32 @@ https://jp.vuejs.org/v2/guide/computed.html
 ### GAP/GAE
 - Google Analyst、Google Tag Manager  
   アクセス解析、挙動解析に必要なもの
+  
 - Google Apps Scripts  
   slackやpythonで簡単なこと、連携したいときに便利
+  
 - Google Search API  
   検索DBで検索が非常に早く便利。無料枠あり。
   https://www.apps-gcp.com/seach-api-part1/
+  
 - Lighthouse・PageSpeed Insights  
   パフォーマンスが測定できる
+  
 - AMP  
   GoogleとTwitterの共同プロジェクトで、モバイルで一瞬でページ読み込みさせるために決めたタグなどがある。
   構成が難しく、また一つでもエラーになると動かないため、難しい。
   設定すると検索上位に来やすいらしい。
+
+### Firebase
+- セキュリティについて
+  一括でrulesでreadとwriteをfalseに設定し、下の定義でロールごとにＯＫにして良いルールを付与していく。
+  Cloud Storeとrealtime databaseでrulesの書き方が違ったはずなので要確認。
+
+### AWS
+やっておくべき設定、初期設定とセキュリティ周りの勉強。
+AWS WAFによるDDoS攻撃対策の設定の勉強。
+
+### Algolia・Elasticsearch + Kibana
+- 全文検索・ドキュメント検索エンジン
+  サイト内検索の実装などに。
+
