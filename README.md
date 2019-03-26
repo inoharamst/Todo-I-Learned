@@ -88,9 +88,12 @@ Mecab
 ### 他
 - metaタグ・OGP  
 - mediaのcss・スタイル  
-- Gitコマンド・使い方  
+- Git・Githubの使い方、コマンド、Git hook少し
 - Markdown  
 - Service Worker オフラインキャッシュの話
 - CORSオリジン →外部URLへの接続   
 - Fluxアーキテクチャ  
   Vuex勉強の際に改めて。
+- Java
+  - ジェネリクス
+  - オブジェクト指向(static、コンストラクタ、this、カプセル化)
