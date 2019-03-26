@@ -82,5 +82,15 @@ AWS WAFによるDDoS攻撃対策の設定の勉強。
 ### python
 word2vec、doc2vecによる可視化  
 Mecab  
-基礎的な内容一通り読み通し
-→*実装できていないので実装する*
+基礎的な内容一通り読み通し  
+→**実装できていないので実装する**
+
+### 他
+- metaタグ・OGP  
+- mediaのcss・スタイル  
+- Gitコマンド・使い方  
+- Markdown  
+- Service Worker オフラインキャッシュの話
+- CORSオリジン →外部URLへの接続   
+- Fluxアーキテクチャ  
+  Vuex勉強の際に改めて。
