@@ -25,6 +25,5 @@ https://jp.vuejs.org/v2/guide/computed.html
 - stateの値を変更・更新したい場合、mutations:ミューテーション(関数的なもの)を定義し、
    store.commit('関数名')で呼び出して変更する。
 - アクションはミューテーションとは異なり、値を変更しない。アクションからstateにアクセス→store.commitでミューテーションを呼び出せる。
-- アクションはディスパッチ:dispatchから呼び出せる。
-
-##### Dispatch→Action→state
+- アクションはディスパッチ:dispatchから呼び出せる。  
+  Dispatch→Action→state
